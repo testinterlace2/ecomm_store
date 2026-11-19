@@ -16,7 +16,7 @@ router.get("/product", (req, res) => {
     );
 });
 
-// Get all  category name 17
+// Get all  category name
 router.get("/category", (req, res) => {
   Category.find()
     .then((category) => res.json([]))
